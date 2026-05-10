@@ -8,5 +8,8 @@ svg {border: 1px solid black;}
 #titleSect
 {
     border: 1px solid black;
-    border-radius: 25%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
 }
