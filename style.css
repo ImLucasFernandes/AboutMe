@@ -1,15 +1,17 @@
 body {
     background-color: rgb(96, 197, 255);
     padding: 3%;
-    color: navy;
+    color:rgb(0, 92, 142)
 }
-a {color: black;}
+a {color:rgb(0, 92, 142)}
 svg {border: 1px solid black;}
 #titleSect
 {
     border: 1px solid black;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: rgb(0,92,142);
+    color: rgb(149, 216, 255);
 }
