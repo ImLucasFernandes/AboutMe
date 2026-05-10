@@ -1,17 +1,38 @@
 body {
     background-color: rgb(96, 197, 255);
     padding: 3%;
-    color:rgb(0, 92, 142)
+    color: rgb(0, 92, 142)
 }
-a {color:rgb(0, 92, 142)}
-svg {border: 1px solid black;}
-#titleSect
+div
 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+svg {
+    border: 1px solid black;
+}
+
+#titleSect {
     border: 1px solid black;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
-    background-color: rgb(0,92,142);
+    background-color: rgb(0, 92, 142);
     color: rgb(149, 216, 255);
+}
+
+#langSect, #otherSect, #hobbySect, #explanationSect{
+    border: 1px solid black;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 10px;
 }
