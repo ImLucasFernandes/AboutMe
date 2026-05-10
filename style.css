@@ -1,6 +1,7 @@
 body {
-    background-color: rgb(37, 161, 233);
+    background-color: rgb(96, 197, 255);
     padding: 3%;
+    color: navy;
 }
 a {color: black;}
 svg {border: 1px solid black;}
