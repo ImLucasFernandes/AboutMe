@@ -5,3 +5,8 @@ body {
 }
 a {color: black;}
 svg {border: 1px solid black;}
+#titleSect
+{
+    border: 1px solid black;
+    border-radius: 25%;
+}
