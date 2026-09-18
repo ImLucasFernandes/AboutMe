@@ -23,6 +23,7 @@ svg {
 li
 {
     margin: 5%;
+    padding-left: 2%;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-left-radius: 35px;
