@@ -62,13 +62,13 @@ li
 }
 #explanationSect
 {
-    max-width: max-content;
+    width: auto;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     border: 1px solid black;
-    min-width: 66%;
+    
 }
 #profileImage
 {
