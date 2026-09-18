@@ -16,6 +16,7 @@ a {
 #flexSect
 {
     display: flex;
+    flex-wrap: wrap;
 }
 #flexSect div
 {
