@@ -63,7 +63,7 @@ li
 }
 #explanationSect
 {
-    max-width: 66%;
+    min-width: 66%;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-left-radius: 35px;
