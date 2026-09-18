@@ -56,12 +56,12 @@ li
     border-bottom-right-radius: 35px;
     padding: 10px;
     max-height: fit-content;
-    max-width: fit-content;
+    max-width: 250px;
 }
 #explanationSect
 {
     max-width: max-content;
-    
+
 }
 #profileImage
 {
@@ -69,5 +69,5 @@ li
     border-top-right-radius: 35px;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
-    max-height: fit-content;
+    max-height: min-content;
 }
