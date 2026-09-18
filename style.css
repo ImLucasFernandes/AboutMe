@@ -23,6 +23,10 @@ svg {
 li
 {
     margin: 5%;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
 }
 #titleSect {
     border: 1px solid black;
