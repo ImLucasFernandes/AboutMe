@@ -20,7 +20,7 @@ a {
 }
 #flexSect div
 {
-    margin: 3%;
+    margin: 5%;
 }
 h4
 {
@@ -68,7 +68,7 @@ li
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     border: 1px solid black;
-    min-width: max-content;
+    min-width: 66%;
 }
 #profileImage
 {
