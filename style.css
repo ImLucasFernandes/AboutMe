@@ -27,6 +27,7 @@ li
     border-top-right-radius: 35px;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
+    text-align: center;
 }
 #titleSect {
     border: 1px solid black;
