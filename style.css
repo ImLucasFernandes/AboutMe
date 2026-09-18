@@ -48,7 +48,7 @@ li
     color: rgb(149, 216, 255);
 }
 
-#langSect, #otherSect, #hobbySect, #explanationSect{
+#langSect, #otherSect, #hobbySect{
     border: 1px solid black;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
@@ -56,12 +56,15 @@ li
     border-bottom-right-radius: 35px;
     padding: 10px;
     max-height: fit-content;
-    max-width: 250px;
+    max-width: 20%;
 }
 #explanationSect
 {
     max-width: max-content;
-
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
 }
 #profileImage
 {
@@ -69,5 +72,5 @@ li
     border-top-right-radius: 35px;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
-    max-height: min-content;
+    max-width: 20%;
 }
