@@ -18,10 +18,13 @@ let explanationSection = document.querySelector("#explanationSect");
 let moreInfo = document.querySelector("#moreInfo");
 for (let i = 0; i < sectionList.length; i++) {
     sectionList[i].addEventListener("mouseover", function () { 
-        sectionList[i].style.backgroundColor = "rgb(255,0,0)";      
+        sectionList[i].style.backgroundColor = "rgb(0,92,142)";
+        sectionList[i].style.color = "rgb(149, 216, 255)";    
     })
     sectionList[i].addEventListener("mouseout", function () { 
-        sectionList[i].style.backgroundColor = "rgb(0,255,255)"  
+        sectionList[i].style.backgroundColor = "rgb(96, 197, 255)";
+        sectionList[i].style.color = "rgb(0,92,142)";
+        
     })
     //currently have no experience with database development but convert to get/pull request after
     sectionList[i].addEventListener("click", function () { 
