@@ -47,7 +47,7 @@ li
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     padding: 10px;
-    max-width: min-content;
+    max-width: fit-content;
 }
 #profileImage
 {
@@ -55,5 +55,5 @@ li
     border-top-right-radius: 35px;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
-    max-width: min-content;
+    max-width: fit-content;
 }
