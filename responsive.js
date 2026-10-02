@@ -1,4 +1,4 @@
-  GNU nano 8.7.1                                                            responsive.js                                                                      
+                                                              
 /**
  * Responsive portion of the website depending on user input and events. 
  */
