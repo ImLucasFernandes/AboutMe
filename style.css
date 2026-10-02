@@ -80,4 +80,5 @@ li
 #bottomPortion
 {
     max-height: 500px;
+    width: fit-content;
 }
