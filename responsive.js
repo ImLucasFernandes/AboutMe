@@ -14,7 +14,7 @@ title.addEventListener("mouseout", function () {
 });
 
 //creates a list of key terms and adds a click event to each one
-let sectionList = document.querySelectorAll("#webDesign, #JS");
+let sectionList = document.querySelectorAll("#webDesign, #JS, #CSS");
 let explanationSection = document.querySelector("#explanationSect");
 let moreInfo = document.querySelector("#moreInfo");
 for (let i = 0; i < sectionList.length; i++) {
