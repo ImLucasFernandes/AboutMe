@@ -1,3 +1,4 @@
+  GNU nano 8.7.1                                                            responsive.js                                                                      
 /**
  * Responsive portion of the website depending on user input and events. 
  */
@@ -25,11 +26,10 @@ for (let i = 0; i < sectionList.length; i++) {
         sectionList[i].style.backgroundColor = "rgb(96, 197, 255)";
         sectionList[i].style.color = "rgb(0,92,142)";  
     })
-    //fetches info from related txt file that has an explanation through a response from a php file. csunix hosted. 
-    sectionList[i].addEventListener("click", function () { 
+    //currently have no experience with database development but convert to get/pull request after
+    sectionList[i].addEventListener("click", function () {
+        //moreInfo.innerHTML = "More info on: " + sectionList[i].textContent + explanations[sectionList[i].id];
         let params = "choice=" + sectionList[i].textContent;
-        fetch("https://csunix.mohawkcollege.ca/~sa000969276/portfolio/explanations.php?"+params)
-            .then(resp => resp.text())
-            .then(txt => moreInfo.innerHTML = txt>)
-    })
+        fetch("https://csunix.mohawkcollege.ca/~sa000969276/portfolio/explanations.php?"+params).then(resp => resp.text()).then(txt => moreInfo.innerHTML = txt)
+})
 }
