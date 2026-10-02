@@ -61,24 +61,18 @@ li
     max-width: 20%;
     border: 1px solid black;
 }
-#explanationSect
-{
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border: 1px solid black;
-    
-}
 #profileImage
 {
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
+    max-width: 250px;
 }
 #bottomPortion
 {
     max-height: 500px;
     width: fit-content;
+    display: flex;  
+    flex-wrap: wrap;
 }
