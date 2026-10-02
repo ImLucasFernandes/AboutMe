@@ -31,5 +31,5 @@ for (let i = 0; i < sectionList.length; i++) {
         fetch("https://csunix.mohawkcollege.ca/~sa000969276/portfolio/explanations.php?"+params)
             .then(resp => resp.text())
             .then(txt => moreInfo.innerHTML = txt>
-    })
+    })}
 }
