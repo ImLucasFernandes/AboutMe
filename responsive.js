@@ -30,6 +30,6 @@ for (let i = 0; i < sectionList.length; i++) {
     sectionList[i].addEventListener("click", function () {
         //moreInfo.innerHTML = "More info on: " + sectionList[i].textContent + explanations[sectionList[i].id];
         let params = "choice=" + sectionList[i].textContent;
-        fetch("https://csunix.mohawkcollege.ca/~sa000969276/portfolio/explanations.php?"+params).then(resp => resp.text()).then(txt => moreInfo.innerHTML = txt))
+        fetch("https://csunix.mohawkcollege.ca/~sa000969276/portfolio/explanations.php?"+params).then(resp => resp.text()).then(txt => moreInfo.innerHTML = txt)
     }
 }
