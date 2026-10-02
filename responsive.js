@@ -27,9 +27,9 @@ for (let i = 0; i < sectionList.length; i++) {
         sectionList[i].style.color = "rgb(0,92,142)";  
     })
     //currently have no experience with database development but convert to get/pull request after
-    sectionList[i].addEventListener("click", function ()) {
+    sectionList[i].addEventListener("click", function () {
         //moreInfo.innerHTML = "More info on: " + sectionList[i].textContent + explanations[sectionList[i].id];
         let params = "choice=" + sectionList[i].textContent;
         fetch("https://csunix.mohawkcollege.ca/~sa000969276/portfolio/explanations.php?"+params).then(resp => resp.text()).then(txt => moreInfo.innerHTML = txt)
-    }
+    })
 }
