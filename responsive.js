@@ -13,7 +13,7 @@ title.addEventListener("mouseout", function () {
 });
 
 //creates a list of key terms and adds a click event to each one
-let sectionList = document.querySelectorAll("#webDesign, #OOP, #cSharp, #python");
+let sectionList = document.querySelectorAll("#webDesign, #JS");
 let explanationSection = document.querySelector("#explanationSect");
 let moreInfo = document.querySelector("#moreInfo");
 for (let i = 0; i < sectionList.length; i++) {
@@ -25,24 +25,11 @@ for (let i = 0; i < sectionList.length; i++) {
         sectionList[i].style.backgroundColor = "rgb(96, 197, 255)";
         sectionList[i].style.color = "rgb(0,92,142)";  
     })
-    //currently have no experience with database development but convert to get/pull request after
+    //fetches info from related txt file that has an explanation through a response from a php file. csunix hosted. 
     sectionList[i].addEventListener("click", function () { 
-        moreInfo.innerHTML = "More info on: " + sectionList[i].textContent + explanations[sectionList[i].id];
+        let params = "choice=" + sectionList[i].textContent;
+        fetch("https://csunix.mohawkcollege.ca/~sa000969276/portfolio/explanations.php?"+params)
+            .then(resp => resp.text())
+            .then(txt => moreInfo.innerHTML = txt>
     })
-}
-//prebuilt list of longer explanations before php/data base implementation
-let explanations = {
-    webDesign : " This website is an exmaple of the experience " +
-    "i've gained in web development which includes html structures, vanilla css and bootstrap, " +
-    "DOM manipulation, AJAX, svg graphics and animations, responsive design and dynamic elements", 
-    
-    OOP : " Object Oriented Programming was taught with the use of JAVA and covered" +
-        "Encapsulation, AssociaHTML & CSStion, Inheritance, Polymorphism and Memory Leaks. ", 
-    
-    cSharp : " I gained experience with C sharp in highschool which covered everything from" + 
-            " sorting + searching methods, in depth GUI manipulation, program logic (games + calculator) and culminated in a " + 
-            "top down doom inspired platformer. ", 
-    
-    python : " I learned Python in highschool and first simester fundamentals which covered basic canvas manipulation and animations. basic syntax and logic and culminated in"
-    + "a 2d sidescroller project, during fundamentals theres also the project gutenberg terminal search program homebrew within the portfolio list. "
 }
